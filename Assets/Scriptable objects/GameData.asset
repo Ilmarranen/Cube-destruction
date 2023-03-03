@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378330c739269134f86edb2cf8454c29, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  leftBound: -4.5
+  rightBound: 4.5
+  upBound: 4.5
+  downBound: -4.5
+  cubeYOffset: 0.5
+  cubeBaseSpeed: 3
+  cubeSpeedOffset: 4
+  cubeRotationSpeed: 2
+  speedChangeTimeLower: 3
+  speedChangeTimeUpper: 6
+  ballSpeed: 1
+  ballTrajectoryHeight: 20
+  ballExplosionRadius: 1.5
+  ballSpawnCD: 1
+  ballShootCD: 0.5
+  cubesRequired: 3
+  ballsMax: 5
+  minSpawnTime: 1
+  maxSpawnTime: 3
